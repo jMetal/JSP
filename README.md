@@ -33,4 +33,4 @@ The literature instances used in the paper are also provided:
 - **dmu40**, 20 machines and  50 jobs.
 - **ta77**, 20 machines and 100 jobs.
 
-but it is easy to add another cases, adding them to data folder. 
+These are some examples, but you can add your own dataset by including it under the data path 
