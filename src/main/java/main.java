@@ -1,6 +1,3 @@
-import org.paper.mutation.jsspMutation;
-import org.paper.problem.JSSP;
-
 import org.uma.jmetal.algorithm.multiobjective.smpso.SMPSO;
 import org.uma.jmetal.experimental.componentbasedalgorithm.algorithm.multiobjective.nsgaii.NSGAII;
 import org.uma.jmetal.experimental.componentbasedalgorithm.algorithm.multiobjective.moead.MOEAD;
@@ -19,6 +16,9 @@ import org.uma.jmetal.util.observer.impl.RunTimeChartObserver;
 import org.uma.jmetal.util.pseudorandom.JMetalRandom;
 import org.uma.jmetal.util.termination.impl.TerminationByComputingTime;
 import org.uma.jmetal.util.termination.impl.TerminationByEvaluations;
+
+import org.paper.mutation.jsspMutation;
+import org.paper.problem.JSSP;
 import org.paper.crossover.jsspCrossover;
 import org.paper.createCSV.CreateCSV;
 import org.uma.jmetal.qualityindicator.impl.hypervolume.Hypervolume;
