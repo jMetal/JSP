@@ -27,8 +27,6 @@ public class CreateCSV {
     private ReadFiles data;
     //private JSSPInstance data;
 
-
-
     public void calculateMakespan(List<DoubleSolution> solution, int jobs, int machines ) {
 
         int[][] machineMakespan = new int[machines][jobs];
